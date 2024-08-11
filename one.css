@@ -1,0 +1,39 @@
+
+/*1. B */
+nav a {
+color:red;
+}
+
+div h2{
+color:red;
+background:beige;
+}
+nav p:first-of-type {
+  color: red;
+}
+/*1. A */
+/*1. C */
+a[href] {
+text-decoration:none;
+color:red;
+}
+a[class="active"] {
+text-decoration:underline;
+color:blue;
+}
+a[target="_self"] {
+background-color:lightblue;
+}
+/*1. C */
+/*1. D */
+p:last-of-type::after {
+content:"...";
+}
+li::marker{
+color:blue;
+}
+p:nth-child(odd)::first-letter {
+  color: red;
+  font-size:30px;
+}
+/*1. D */
